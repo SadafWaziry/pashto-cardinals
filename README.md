@@ -6,15 +6,21 @@ A package that can convert a number to Pashto language
 Install
 =========
 Via Pip:
+
 $ pip install pashtocardinals
--- OR --
+
+OR
+
 $ sudo pip install pashtocardinals
 
 
 Usage
 ======
-from pashtocardinals import * =====
-pashtocardinals.convert(234) # This will return "دوه سوه او څلور دیرش"
+from pashtocardinals import *
+
+pashtocardinals.convert(234) 
+
+The above code will return "دوه سوه او څلور دیرش"
 
 
 License
