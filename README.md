@@ -13,7 +13,7 @@ $ sudo pip install pashtocardinals
 
 Usage
 ======
-from pashtocardinals import *
+from pashtocardinals import * =====
 pashtocardinals.convert(234) # This will return "دوه سوه او څلور دیرش"
 
 
