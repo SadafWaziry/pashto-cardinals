@@ -7,30 +7,17 @@ Install
 =========
 Via Pip:
 
-$ pip install pashtocardinals
-
-OR
-
-$ sudo pip install pashtocardinals
-
+`$ pip install pashtocardinals`
 
 Usage
 ======
+``` python
 from pashtocardinals import *
 
-pashtocardinals.convert(234) 
+pashtocardinals.convert(234)
+```
 
 The above code will return "دوه سوه او څلور دیرش"
-
-
-Simple Example
-==============
-from pashtocardinals import *
-
-user_input = raw_input("Enter an integer:\n>> ")
-
-pashtocardinals.convert(user_input)
-
 
 License
 =======
