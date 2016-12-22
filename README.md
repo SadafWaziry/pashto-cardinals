@@ -5,17 +5,16 @@ A package that can convert a number to Pashto language
 
 Install
 =========
-Via Pip: ------  
-$ pip install pashto_cardinals
+Via Pip:
+$ pip install pashtocardinals
 -- OR --
-$ sudo pip install pashto_cardinals
+$ sudo pip install pashtocardinals
 
 
 Usage
 ======
-import pashto_cardinals
-
-pashto_cardinals.convert(234) # This will return "دوه سوه او څلور دیرش"
+from pashtocardinals import *
+pashtocardinals.convert(234) # This will return "دوه سوه او څلور دیرش"
 
 
 License

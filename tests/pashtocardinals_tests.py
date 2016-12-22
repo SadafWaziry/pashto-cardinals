@@ -1,5 +1,5 @@
 from nose.tools import *
-import pashto_cardinals
+import pashtocardinals
 
 def setup():
     print "SETUP!"

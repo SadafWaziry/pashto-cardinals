@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b5a91ca-9f11-44e5-9ee4-ca2ea46be44c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pashto-cardinals" afterPath="$PROJECT_DIR$/pashto-cardinals" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pashto_cardinals/__init__.py" afterPath="$PROJECT_DIR$/pashto_cardinals/__init__.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.cfg" afterPath="$PROJECT_DIR$/setup.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/setup.py" afterPath="$PROJECT_DIR$/setup.py" />
     </list>
     <ignored path="waziry.iws" />
@@ -118,15 +119,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1482405683980</updated>
-      <workItem from="1482405685400" duration="27000" />
+      <workItem from="1482405685400" duration="1224000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27000" />
+    <option name="totallyTimeSpent" value="1224000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="51" y="24" width="1315" height="744" extended-state="6" />
+    <frame x="51" y="24" width="1315" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25453112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
