@@ -6,7 +6,7 @@ except ImportError:
 config = {
     'description': 'This package can convert a number to Pashto language',
     'author': 'Sadaf Waziry',
-    'url': 'https://github.com/SadafWaziry/PashtoCardinals',
+    'url': 'https://github.com/SadafWaziry/pashto-cardinals',
     'download_url': 'Where to download it.',
     'author_email': 'sadaf1.waziry@gmail.com',
     'version': '0.1',
