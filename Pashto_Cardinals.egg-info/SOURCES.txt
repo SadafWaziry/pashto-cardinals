@@ -1,9 +1,0 @@
-setup.cfg
-setup.py
-Pashto_Cardinals.egg-info/PKG-INFO
-Pashto_Cardinals.egg-info/SOURCES.txt
-Pashto_Cardinals.egg-info/dependency_links.txt
-Pashto_Cardinals.egg-info/requires.txt
-Pashto_Cardinals.egg-info/top_level.txt
-pashto_cardinals/__init__.py
-pashto_cardinals/pashto_cardinals.py
