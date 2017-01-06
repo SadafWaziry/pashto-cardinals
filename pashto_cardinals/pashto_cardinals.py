@@ -14,8 +14,10 @@ def less_than_thousnds(number):
     elif 20 <= num <= 99:
         if num == 20:
             return " شل"
-        elif number[-1] == "0":
-            return ten_to_twenty_list[int(number[0])]
+        elif number[-1] == "0" and number[-2] != "0":
+            return ten_to_twenty_list[int(number[-2])]
+        elif number[-2] != "0":
+            return one_to_nineteen_list[int(number[-1])]  + " " + ten_to_twenty_list[int(number[-2])]
         else:
             return one_to_nineteen_list[int(number[1])]  + " " + ten_to_twenty_list[int(number[0])]
     elif 100 <= num <= 999:
@@ -62,14 +64,29 @@ def get_thousands(number):
 
 
 def convert(user_input):
-    int_num = int(user_input)
+    int_num = user_input
 
-    if int_num < 0:
-        print "منفي",
-        int_num *= -1
-        user_input = user_input[1:]
+    if '.' in int_num:
+        original, decimal = int_num.split(".")
 
-    if int_num < 1000:
-        print less_than_thousnds(user_input)
+        if (len(original) / 3 >= len(thousand_to_more_list)):
+            print "The original number is too long!"
+        elif (len(decimal) / 3 >= len(thousand_to_more_list)):
+            print "The decimal number is too long"
+        else:
+            if int(original) < 1000 and int(decimal) < 1000 :
+                print less_than_thousnds(original) + " اعشاریه " + less_than_thousnds(decimal)
+            elif int(original) < 1000 and int(decimal) >= 1000:
+                print less_than_thousnds(original) + " اعشاریه " + greater_than_thousand(decimal)
+            elif int(original) >= 1000 and int(decimal) < 1000:
+                print greater_than_thousand(original) + " اعشاریه " + less_than_thousnds(decimal)
+            elif int(original) >= 1000 and int(decimal) >= 1000:
+                print greater_than_thousand(original) + " اعشاریه " + greater_than_thousand(decimal)
+
+    elif (len(int_num) / 3 >= len(thousand_to_more_list)):
+        print "Oooppsss! Too long number"
     else:
-        print greater_than_thousand(user_input)
+        if int(int_num) < 1000:
+            print less_than_thousnds(user_input)
+        else:
+            print greater_than_thousand(user_input)

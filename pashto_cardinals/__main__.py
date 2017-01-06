@@ -1,0 +1,1 @@
+import pashto_cardinals

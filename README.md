@@ -7,14 +7,14 @@ Install
 =========
 Via Pip:
 
-`$ pip install pashtocardinals`
+`$ pip install pashto_cardinals`
 
 Usage
 ======
 ``` python
-from pashtocardinals import *
+from pashto_cardinals import *
 
-pashtocardinals.convert(234)
+pashto_cardinals.convert(234)
 ```
 
 The above code will return "دوه سوه او څلور دیرش"
